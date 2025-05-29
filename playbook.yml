@@ -1,0 +1,6 @@
+---
+- name: Use custom role
+  hosts: all
+  become: yes
+  roles:
+    - create_file
